@@ -12,3 +12,6 @@ add_executable(C main.c)
 # sort
 add_executable(testSort ${SORT_FILES})
 
+# 常用算法
+add_executable(hanoi Practice/Hanoi.c)
+add_executable(maxSubsequenceSum Practice/MaxSubsequenceSum.c)
